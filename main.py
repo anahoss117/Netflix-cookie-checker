@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
-working_cookies_path = 'working_cookies'
+working_cookies_path = '/content/Netflix-cookie-checker/json_cookies'
 
 if config.use_folder_selector:
     tkinter.Tk().withdraw()
